@@ -13,15 +13,15 @@ function drawChart() {
   data.addColumn('string', 'Topping');
   data.addColumn('number', 'Slices');
   data.addRows([
-    ['Mushrooms', 3],
-    ['Onions', 1],
-    ['Olives', 1],
-    ['Zucchini', 1],
-    ['Pepperoni', 2]
+    ['Tomato', 6],
+    ['Pineapple', 6],
+    ['Pepperoni', 7],
+    ['Peppers', 4],
+    ['Shrimp', 1]
   ]);
 
   // Set chart options
-  var options = {'title':'How Much Pizza I Wish I Ate Last Night',
+  var options = {'title':'HTML300 Class Poll Results: Favorite Pizza Toppings',
                  'width':400,
                  'height':300};
 
