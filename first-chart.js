@@ -11,7 +11,7 @@ function drawChart() {
   // Create the data table.
   var data = new google.visualization.DataTable();
   data.addColumn('string', 'Topping');
-  data.addColumn('number', 'Slices');
+  data.addColumn('number', 'People Who Like It');
   data.addRows([
     ['Tomato', 6],
     ['Pineapple', 6],
